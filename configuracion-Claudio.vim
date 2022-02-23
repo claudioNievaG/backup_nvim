@@ -49,6 +49,7 @@ let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
 autocmd FileType * RainbowParentheses
 
 
+
 " List of colors that you do not want. ANSI code or #RRGGBB
 let g:rainbow#blacklist = [233, 234]
 

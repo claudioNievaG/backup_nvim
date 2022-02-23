@@ -60,7 +60,7 @@ call plug#end()
 " colorscheme dracula
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
-autocmd FileType * colorscheme gruvbox
+set bg=dark
 
 " open new split panes to right and below
 set splitright
