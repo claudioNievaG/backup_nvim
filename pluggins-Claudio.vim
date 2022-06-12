@@ -18,9 +18,14 @@
 
  "IDE
  " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
- Plug 'junegunn/fzf'
- Plug 'junegunn/fzf.vim'
+ " Plug 'junegunn/fzf'
+ " Plug 'junegunn/fzf.vim'
  Plug 'terryma/vim-multiple-cursors'
+
+"FZF file and line finder
+ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+ Plug 'junegunn/fzf.vim'
+ Plug 'airblade/vim-rooter'
 
  Plug 'mhinz/vim-startify'
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
